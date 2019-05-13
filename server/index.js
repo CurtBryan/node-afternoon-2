@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 app.use(express.static(__dirname + "/../public/build"));
+//asd
 
 const mc = require("./controllers/messageControllers");
 const port = 3001;
